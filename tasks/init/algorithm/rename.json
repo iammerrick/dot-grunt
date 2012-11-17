@@ -1,4 +1,4 @@
 {
   "algorithm.js" : "{%= name %}.js",
-  "test/algorithm.js" : "{%= name %}Test.js"
+  "test/algorithm.js" : "test/{%= name %}Test.js"
 }
