@@ -15,3 +15,5 @@ Quickly scaffold an algorithm garden. It provides a Mocha test structure with ex
 1. `grunt init:algorithm`
 2. `npm install`
 3. Improve yourself.
+
+![Fibonacci Using init:algorithm](http://f.cl.ly/items/3N0w3i210y2x1l2w0G1m/Screen%20Shot%202012-11-17%20at%201.47.42%20PM.png)
