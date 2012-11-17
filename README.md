@@ -2,7 +2,7 @@
 
 ## Installation
 
-git clone https://github.com/iammerrick/dot-grunt.git ~/.grunt
+`git clone https://github.com/iammerrick/dot-grunt.git ~/.grunt`
 
 ## Usage
 
