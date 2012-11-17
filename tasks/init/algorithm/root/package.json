@@ -1,0 +1,13 @@
+{
+  "name" : "{%= name %}",
+  "version" : "0.0.0",
+  "private" : true,
+  "readme" : "A sweet {%= name %} algorithm.",
+  "dependencies" : {
+    "chai" : "latest",
+    "mocha" : "latest"
+  },
+  "scripts" : {
+    "test" : "mocha -w --reporter nyan"
+  }
+}
