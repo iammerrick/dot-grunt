@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var {%= js_safe_name %} = require('../{%= name %}');
+
+var argv = require('optimist')
+  .describe({
+    'whom' : 'Who would you like to say hello to?' 
+  })
+  .alias({
+    'whom' : 'w'
+  })
+  .default({
+    'whom' : 'World'
+  })
+  .usage('Usage: --whom [name]')
+  .argv;
+
+console.log({%= js_safe_name %}(argv.whom));

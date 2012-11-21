@@ -1,0 +1,15 @@
+{
+  "name": "{%= name %}",
+  "version": "0.0.1",
+  "dependencies": {
+    "optimist": "latest"
+  },
+  "devDependencies" : {
+    "chai": "latest",
+    "mocha": "latest"
+  },
+  "bin": "bin/{%= name %}",
+  "scripts": {
+    "test": "mocha test"
+  }
+}

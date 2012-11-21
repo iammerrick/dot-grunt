@@ -1,0 +1,5 @@
+{
+  "cli.js" : "{%= name %}.js",
+  "test/hello.js" : "test/{%= name %}Test.js",
+  "bin/cli" : "bin/{%= name %}"
+}
