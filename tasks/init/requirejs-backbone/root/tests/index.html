@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="vendor/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="vendor/mocha.js"></script>
+    <script src="vendor/chai.js"></script>
+    <script src="vendor/sinon-chai.js"></script>
+    <script src="vendor/sinon-1.5.0.js"></script>
+    <script src="../src/config.js"></script>
+    <script>
+      var expect = chai.expect;
+      require.baseUrl = '../src/app';
+      require.paths.tests = '../../tests/app';
+      mocha.setup('bdd');
+    </script>
+    <script src="../src/vendor/require.js"></script>
+    <script>
+      require(['tests/main'], function() {
+        mocha.run();
+      });
+    </script>
+  </body>
+</html>
